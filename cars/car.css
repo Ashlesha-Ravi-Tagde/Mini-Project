@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.grantparent{
+    height: 100%;
+    width: 100%;
+    background-image: url(galary/car.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.parent{
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.childtop{
+    height: 30%;
+    width: 60%;
+    margin-bottom: 30px;  
+    padding: 20px; 
+
+}
+h1{
+    color: white;
+    text-align: right;
+}
+.childbottom{
+    height: 20%;
+    width: 60%;
+    padding: 10px;
+
+}
+p{
+    color: white;
+    text-align: right;
+    padding: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+
+}
+.subchild{
+    width: 50%;
+    height: 50%;
+}
+img{
+height: 60px;
+width: 70px;
+margin-top: 374px;
+    margin-left:250px;
+}

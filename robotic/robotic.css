@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd148ffc8-9abd-498a-9b9c-89232e1aaf91_1792x1024.webp);
+    background-size: cover;
+
+}
+.child{
+    height: 20%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.childtop{
+    height: 100%;
+    width: 50%;
+}
+h1{
+    text-transform: capitalize;
+color: white;
+text-align: left;
+font-size: 100px;
+text-shadow: 14px -2px 2px rgba(0,0,0,0.6);
+
+}
+
+
+.childbottom{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.subchild{
+    padding: 20px;
+    height: 50%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: row;
+justify-content: flex-start;
+
+}
+p{
+    text-transform: capitalize;
+    text-align: justify;
+color: white;    
+line-height: 30px;
+font-size: 20px;
+transition-duration: 10s;
+transition-timing-function: ease-out;
+transition-delay: 1s;
+}
+p:hover{
+transform: translate(50px,50px);
+
+}

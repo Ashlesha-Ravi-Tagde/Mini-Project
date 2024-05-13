@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.grantparent{
+    height: 100%;
+    width: 100%;
+
+}
+.parent{
+    height: 100%;
+    width: 100%;
+
+}
+.parenttop{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://homebuyer.com/wp-content/uploads/2021/06/hero-1.jpg);
+   background-size: cover; 
+}
+.grand{
+    height: 60%;
+    width: 100%;
+    padding: 20px;
+
+
+
+}
+.parentmiddle{
+    height: 65%;
+    width: 100%;
+    padding: 20px;
+
+
+}
+h1{
+    text-align: center;
+margin-top: 20px;
+}
+.pagh{
+    margin-left: 130px;
+    margin-top: 10px;
+    background-color: rgb(219, 168, 168);
+    display: inline;
+
+}
+
+h2{
+margin-bottom: 10px;
+}
+.parentbottom{
+    height: 30%;
+    width: 100%;
+
+}
+
+.childup{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.childright{
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+    margin-left: 20px;
+
+
+}
+.childleft{
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+    margin-left: 20px;
+
+}
+
+.childdown{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.chin2{
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+margin-left: 20px;
+
+}
+.chin2{
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+    margin-left: 20px;
+
+
+}
+p{
+    text-align: justify;
+    text-transform: capitalize;
+}
+span{
+    color: rgb(102, 102, 238);
+}
+@media (min-width: 803px) {
+    .parent{
+        height: 100%;
+        width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    }
+    .parenttop{
+        height: 100%;
+        width: 150%;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqu2ObtqvqqMjnjH37f7xOFlp-IfzfUgFZoDLUCsqMSA&s);     
+  background-size: cover; 
+    }
+    
+    .parentmiddle{
+        height: 90%;
+        width: 100%;
+        padding: 20px;
+    
+    
+    }
+    h2{
+        margin-bottom: 30px;
+        }
+        
+    p{
+        text-align: justify;
+        text-transform: capitalize;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .pagh{
+        background-color: white;
+        display: inline;
+        display: none;
+
+    }
+    
+    
+}

@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.grantparent{
+    height: 250vh;
+    width: 100%;
+    background-color: black;
+    
+    
+}
+.father{
+    height: 5%;
+    width: 100%;
+    padding: 10px;
+
+}
+h2{
+    color: red;
+    margin-left: 35px;
+    padding-bottom: 20px;
+
+}
+.heading{
+    color: white;
+    margin-left: 29px;
+    margin-bottom: 20px;
+
+}
+
+p{
+    color: white;
+    text-transform: capitalize;
+    margin-left: 35px;
+
+}
+h5{
+    color: white;
+    margin-left: 30px;
+    padding-bottom: 30px;
+
+}
+.mother{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+
+}
+.parenttop{
+    height: 30%;
+    width: 85%;
+    background-color: rgb(55, 56, 57);
+    margin-left: 25px;
+
+    border: 1px red solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.parentmiddle{
+    height: 30%;
+    width: 85%;
+    background-color: rgb(55, 56, 57);
+    border: 1px red solid;
+    margin-left: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+.parentbottom{
+    height: 30%;
+    width: 85%;
+    background-color: rgb(55, 56, 57);
+
+    border: 1px red solid;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+
+}
+
+li{
+    color: white;
+    margin-left: 40px;
+    list-style: none;
+    padding: 2px;
+}
+.pic{
+    margin-left: 230px;
+    margin-top: 10px;
+}
+.btn{
+    height: 25px;
+    width: 150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 125px;
+    border: none;
+
+}
+.newbtn{
+    height: 30px;
+    width: 150px;
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+
+}
+.newbtn:hover{
+background-color: orangered;
+
+}
+
+
+@media (min-width:625px) {
+    
+
+    .parenttop{
+    height: 30%;
+    width: 55%;
+    background-color: rgb(72, 94, 117);
+
+    border: 1px red solid;
+
+
+}
+.parentmiddle{
+    height: 30%;
+    width: 55%;
+    background-color: rgb(72, 94, 117);
+    border: 1px red solid;
+
+
+
+}
+.parentbottom{
+    height: 30%;
+    width: 55%;
+    background-color: rgb(72, 94, 117);
+
+
+
+}
+.pic{
+    display: none;
+
+    margin-left: 230px;
+    margin-top: 10px;
+}
+
+}
+
+@media (min-width:1024px) {
+
+    .mother{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    
+    }
+    .parenttop{
+        height: 25%;
+        width: 25%;
+        background-color: rgb(55, 56, 57);
+    
+        border: 1px red solid;
+        border-radius: 20px;
+    
+    }
+    .parentmiddle{
+        height: 25%;
+        width: 25%;
+        background-color: rgb(55, 56, 57);
+        border: 1px red solid;
+        margin-left: 25px;
+        border-radius: 20px;
+    
+    
+    }
+    .parentbottom{
+        height: 25%;
+        width: 25%;
+        background-color: rgb(55, 56, 57);
+    
+        border: 1px red solid;
+        border-radius: 20px;
+        margin-left: 25px;
+    
+    }
+    
+li{
+    
+    padding: 5px;
+}
+
+.btn{
+    height: 30px;
+
+    margin-top: 100px;
+
+}
+.newbtn{
+    height: 30px;
+
+    margin-top: 80px;
+
+}
+.pic{
+    display: block;
+}
+}

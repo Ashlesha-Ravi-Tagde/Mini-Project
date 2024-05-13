@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.grantparent{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(146, 175, 175);
+
+}
+h1{
+    text-transform: capitalize;
+    font-size: 65px;
+    margin-left: 70px;
+    padding: 10px;
+}
+.child{
+    width: 100%;
+display: flex;
+flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+
+
+}
+.box{
+
+    width: 15%;
+    padding: 70px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    position: relative;
+
+animation-name: move;
+animation-duration: 5s;
+animation-delay: 1s;
+animation-timing-function: ease-in;
+animation-direction: alternate;
+
+}
+.new1{
+    background-color: rgb(235, 102, 102);
+}
+.new2{
+    background-color: rgb(235, 176, 68);
+}
+.new3{
+    background-color: rgb(238, 164, 26);
+
+}
+.new4{
+background-color: rgb(223, 223, 93);
+}
+.new5{
+background-color:rgb(23, 226, 23);
+}
+.new6{
+background-color: rgb(24, 169, 24);
+}
+.new7{
+background-color: rgb(91, 123, 42);
+}
+.new8{
+    background-color: rgb(111, 190, 232);
+
+}
+.new9{
+background-color: rgb(56, 171, 210);
+}
+.new10{
+    background-color: darkcyan;
+}
+.new11{
+    background-color: rgb(120, 120, 214);
+
+}
+.new12{
+    background-color: rgb(164, 99, 224);
+}
+.new13{
+background-color: rgb(205, 75, 205);
+}
+.new14{
+    background-color: rgb(212, 83, 162);
+}
+
+.new15{
+    background-color: rgb(243, 92, 115);
+
+}
+
+@keyframes move {
+
+    0%{
+        left: 0;
+transform: rotateX('30deg');
+
+    }
+    25%{
+        transform: rotateX('40deg');
+
+left: 200px;  
+  }
+    
+}
+
+
+
+
+
+
+
+p{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+}
